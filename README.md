@@ -52,8 +52,6 @@ If you want to just test out the routes from the deployed Heroku link, prepend '
 <li>to PUT a tag by id: `e-sale-nkc.herokuapp.com/api/tags/:id` >> refer to the post route</li>
 <li>to DELETE a tag by id: `e-sale-nkc.herokuapp.com/api/tags/:id`</li></ul>
 
-Here is a [video walkthrough]().
-
 And here is the app's live Heroku link: https://e-sale-nkc.herokuapp.com/
 
 ## License
