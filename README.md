@@ -34,27 +34,27 @@ I learned A LOT about routes from this project. I also learned how to make my pe
 <li>to PUT a tag by id: `localhost:3007/api/tags/:id` >> refer to the post route</li>
 <li>to DELETE a tag by id: `localhost:3007/api/tags/:id`</li></ul>
 
-If you want to just test out the routes from the deployed Heroku link:
-<ol><li>navigate to `https://e-sale-nkc.herokuapp.com/`. There, you will see instructions for how to view table data in the browser window. </li><img src="./assets/images/e-sale.png" alt="e-sale Heroku site main" title="e-sale Heroku site main" width="500px"><li>To test out the POST, PUT, and DELETE routes, open up your API platform, and create the route requests listed below in a project folder:</li></ol>
-<ul><li>to GET all products: `https://e-sale-nkc.herokuapp.com/api/products`</li>
-<li>to GET product by id: `https://e-sale-nkc.herokuapp.com/api/products/:id`</li>
-<li>to POST new product: `https://e-sale-nkc.herokuapp.com/api/products` >> req.body needs product_name, price, stock, category_id, tagIds (an array of numbers)</li>
-<li>to PUT product by id: `https://e-sale-nkc.herokuapp.com/api/products/:id` >> refer to the post route</li>
-<li>to DELETE product by id: `https://e-sale-nkc.herokuapp.com/api/products/:id`</li>
-<li>to GET all categories: `https://e-sale-nkc.herokuapp.com/api/categories`</li>
-<li>to GET category by id: `https://e-sale-nkc.herokuapp.com/api/categories/:id`</li>
-<li>to POST a new category: `https://e-sale-nkc.herokuapp.com/api/categories`>> req.body needs category_name</li>
-<li>to PUT a category by id: `https://e-sale-nkc.herokuapp.com/api/categories/:id` >> refer to the post route</li>
-<li>to DELETE a category by id: `https://e-sale-nkc.herokuapp.com/api/categories/:id`</li>
-<li>to GET all tags: `https://e-sale-nkc.herokuapp.com/api/tags/`</li>
-<li>to GET a tag by id: `https://e-sale-nkc.herokuapp.com/api/tags/:id`</li>
-<li>to POST a new tag: `https://e-sale-nkc.herokuapp.com/api/tags/` >> req.body needs category_name</li>
-<li>to PUT a tag by id: `https://e-sale-nkc.herokuapp.com/api/tags/:id` >> refer to the post route</li>
-<li>to DELETE a tag by id: `https://e-sale-nkc.herokuapp.com/api/tags/:id`</li></ul>
+If you want to just test out the routes from the deployed Heroku link, prepend 'https://' to the routes listed below:
+<ol><li>navigate to `e-sale-nkc.herokuapp.com/`. There, you will see instructions for how to view table data in the browser window. </li><img src="./assets/images/e-sale.png" alt="e-sale Heroku site main" title="e-sale Heroku site main" width="500px"><li>To test out the POST, PUT, and DELETE routes, open up your API platform, and create the route requests listed below in a project folder:</li></ol>
+<ul><li>to GET all products: `e-sale-nkc.herokuapp.com/api/products`</li>
+<li>to GET product by id: `e-sale-nkc.herokuapp.com/api/products/:id`</li>
+<li>to POST new product: `e-sale-nkc.herokuapp.com/api/products` >> req.body needs product_name, price, stock, category_id, tagIds (an array of numbers)</li>
+<li>to PUT product by id: `e-sale-nkc.herokuapp.com/api/products/:id` >> refer to the post route</li>
+<li>to DELETE product by id: `e-sale-nkc.herokuapp.com/api/products/:id`</li>
+<li>to GET all categories: `e-sale-nkc.herokuapp.com/api/categories`</li>
+<li>to GET category by id: `e-sale-nkc.herokuapp.com/api/categories/:id`</li>
+<li>to POST a new category: `e-sale-nkc.herokuapp.com/api/categories`>> req.body needs category_name</li>
+<li>to PUT a category by id: `e-sale-nkc.herokuapp.com/api/categories/:id` >> refer to the post route</li>
+<li>to DELETE a category by id: `e-sale-nkc.herokuapp.com/api/categories/:id`</li>
+<li>to GET all tags: `e-sale-nkc.herokuapp.com/api/tags/`</li>
+<li>to GET a tag by id: `e-sale-nkc.herokuapp.com/api/tags/:id`</li>
+<li>to POST a new tag: `e-sale-nkc.herokuapp.com/api/tags/` >> req.body needs category_name</li>
+<li>to PUT a tag by id: `e-sale-nkc.herokuapp.com/api/tags/:id` >> refer to the post route</li>
+<li>to DELETE a tag by id: `e-sale-nkc.herokuapp.com/api/tags/:id`</li></ul>
+
 Here is a [video walkthrough]().
 
-
-
+And here is the app's live Heroku link: https://e-sale-nkc.herokuapp.com/
 
 ## License
 The files in this repository are covered by the [MIT License](https://choosealicense.com/licenses/mit/).
